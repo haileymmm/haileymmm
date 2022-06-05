@@ -155,6 +155,8 @@ $kill [option or signal(번호 또는 이름)] <pid> [...]
 
 ---
 ### 시그널 종류
+![signal list](https://user-images.githubusercontent.com/106906248/172044076-32bb7cbe-11d1-4ef8-89c6-ddf6bd94edd9.png)
+!<img src="https://user-images.githubusercontent.com/106906248/172044076-32bb7cbe-11d1-4ef8-89c6-ddf6bd94edd9.png" width="30%" height="30%">
 
 ---
 ### 주요 시그널
