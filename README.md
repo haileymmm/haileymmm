@@ -121,20 +121,20 @@ jobs [옵션] [작업번호]
 
 ---
 ### jobs 옵션
-* -l : 프로세스 그룹 ID를 state 필드 앞에 출력.
-* -n : 프로세스 그룹 중에 대표 프로세스 ID를 출력.
-* -p : 각 프로세스 ID에 대해 한 행씩 출력.
-* command : 지정한 명령어를 실행.
+* **-l** : 프로세스 그룹 ID를 state 필드 앞에 출력.
+* **-n** : 프로세스 그룹 중에 대표 프로세스 ID를 출력.
+* **-p** : 각 프로세스 ID에 대해 한 행씩 출력.
+* **command** : 지정한 명령어를 실행.
 ---
 ### jobs로 출력되는 백그라운드 작업의 상태값
-* Running : 작업이 계속 진행중임.
-* Done : 작업이 완료되어 0을 반환.
-* Done(code) : 작업이 종료되었으며 0이 아닌 코드를 반환.
-* Stopped :　작업이 일시 중단
-* Stopped(SIGTSTP) :　SIGTSTP 시그널이 작업을 일시 중단.
-* Stopped(SIGSTOP) :　SIGSTOP 시그널이 작업을 일시 중단.
-* Stopped(SIGTTIN) :　SIGTTIN 시그널이 작업을 일시 중단.
-* Stopped(SIGTTOU) :　SIGTTOU 시그널이 작업을 일시 중단.
+* **Running** : 작업이 계속 진행중임.
+* **Done** : 작업이 완료되어 0을 반환.
+* **Done(code)** : 작업이 종료되었으며 0이 아닌 코드를 반환.
+* **Stopped** :　작업이 일시 중단
+* **Stopped(SIGTSTP)** :　SIGTSTP 시그널이 작업을 일시 중단.
+* **Stopped(SIGSTOP)** :　SIGSTOP 시그널이 작업을 일시 중단.
+* **Stopped(SIGTTIN)** :　SIGTTIN 시그널이 작업을 일시 중단.
+* **Stopped(SIGTTOU)** :　SIGTTOU 시그널이 작업을 일시 중단.
 ---
 
 ## 4. kill
@@ -148,7 +148,7 @@ $kill [option or signal(번호 또는 이름)] <pid> [...]
 ---
 ### kill 옵션
   
-* -l : 시그널의 종류를 출력함.
+* **-l** : 시그널의 종류를 출력함.
 
 ---
 ### 주요 시그널
