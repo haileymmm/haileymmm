@@ -65,9 +65,11 @@ top [option]
 $ ps [option]
 
 
-System V : 대시(dash, -)사용함 ex)　$ps- ef
+System V : 대시(dash, -)사용함
+ex)　$ps- ef
 
-BSD : 대시 사용 안함 ex)　$ps aux
+BSD : 대시 사용 안함
+ex)　$ps aux
 
 ---
 ### ps 옵션
@@ -90,23 +92,23 @@ BSD : 대시 사용 안함 ex)　$ps aux
 * **-x** : 로그인 상태에 있는 동안 아직 완료되지 않은 프로세서들을 보여줌. 
 ---
 ### ps 상태
-* USER :　BSD계열에서 나타나는 항목으로 프로세스 소유자의 이름
-* UID : SYSTEM　V계열에서 나타나는 항목으로 프로세스 소유자의 이름
-* PID : 프로세스의 식별번호
-* PPID : 부모 프로세스의 ID
-* %CPU : CPU 사용 비율의 추정치(BSD)
-* %MEM : 메모리의 사용 비율의 추정치(BSD)
-* VSZ : K단위 또는 페이지 단위의 가상메모리 사용량
-* RSS :　실제 메모리 사용량
-* TTY :　프로세스와 연결된 터미널
-* S, STAT : 현재 프로세스의 상태 코드 (S:System V, STAT:BSD)
-* TIME :　총 CPU 사용 시간
-* COMMAND :　프로세스의 실행 명령행
-* STIME : 프로세스가 시작된 시간 혹은 날짜
-* C, CP : 짧은 기간 동안의 CPU 사용률 (C:System V, CP:BSD)
-* F :　프로세스의 플래그
-* PRI : 실제 실행 우선순위
-* NI : nice 우선순위 번호
+* **USER** :　BSD계열에서 나타나는 항목으로 프로세스 소유자의 이름
+* **UID** : SYSTEM　V계열에서 나타나는 항목으로 프로세스 소유자의 이름
+* **PID** : 프로세스의 식별번호
+* **PPID** : 부모 프로세스의 ID
+* **%CPU** : CPU 사용 비율의 추정치(BSD)
+* **%MEM** : 메모리의 사용 비율의 추정치(BSD)
+* **VSZ** : K단위 또는 페이지 단위의 가상메모리 사용량
+* **RSS** :　실제 메모리 사용량
+* **TTY** :　프로세스와 연결된 터미널
+* **S, STAT** : 현재 프로세스의 상태 코드 (S:System V, STAT:BSD)
+* **TIME** :　총 CPU 사용 시간
+* **COMMAND** :　프로세스의 실행 명령행
+* **STIME** : 프로세스가 시작된 시간 혹은 날짜
+* **C, CP** : 짧은 기간 동안의 CPU 사용률 (C:System V, CP:BSD)
+* **F** :　프로세스의 플래그
+* **PRI** : 실제 실행 우선순위
+* **NI** : nice 우선순위 번호
 ---
 
 ## 3. jobs
